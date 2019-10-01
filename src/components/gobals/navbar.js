@@ -10,22 +10,24 @@ export default class navbar extends Component {
     //links to the pages 
 state = {
     navbarOpen: false,
-    css:'collapse navbar-collapse',//has to be a bootstrap form css
+    css: 'collapse navbar-collapse',//has to be a bootstrap form css
     links:[
         {
             id:1,
-            path:'/',//here we add the other rute of the other pages
+            path: '/',//here we add the other rute of the other pages
             text: 'home'
         },{
             id:2,
-            path:'/about',//here we add the other rute of the other pages
+            path: '/about',//here we add the other rute of the other pages
             text: 'about'
         }
     ]
 }
 
 navbarHandler = () =>{
-        console.log('hello');
+        this.state.navbarOpen?this.setState({navbarOpen:false,css:"collapse navbar-collapse"}):
+        this.setState({navbarOpen:true,
+        css: 'collape navbar-collapse show'})
 }
     render() {
         return (
@@ -61,6 +63,9 @@ navbarHandler = () =>{
                                 )
                             })
                         }
+                        <li className="nav-item ml-sm-5">{/*here you put the icon with spaces*/}
+                            <FaCartArrowDown className="cart-icon"/>
+                        </li>
                     </ul>
                 </div>
             </nav>
