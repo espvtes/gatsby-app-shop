@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import { Link } from 'gatsby';
+import React, { Component } from './node_modules/react'
+import { Link } from './node_modules/gatsby';
 import logo from '../../images/logo.svg';//how to import the images
-import {FaCartArrowDown} from 'react-icons/fa';
+import {FaCartArrowDown} from './node_modules/react-icons/fa';
 
 
 
 
-export default class navbar extends Component {
+export default class Navbar extends Component {
     //links to the pages 
 state = {
     navbarOpen: false,
