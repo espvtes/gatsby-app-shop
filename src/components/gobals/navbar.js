@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby';
-import logo from '../../images/logo.svg';
+import logo from '../../images/logo.svg';//how to import the images
 import {FaCartArrowDown} from 'react-icons/fa';
 
 
@@ -36,7 +36,7 @@ navbarHandler = () =>{
                 {/*we have an attribute into the link that sent to the links pages*/}
                 <Link to='/' className="navbar-brand">
                     {/*attribute src for link the img/we put here the link as a icon*/}
-                    <img src={logo} alt="logo"/>
+                    <img src={logo} alt="logo"/>{/* set the image*/}
                     {/* https://www.iconfinder.com/icons/185113/coffee_streamline_icon
                         Creative Commons (Attribution 3.0 Unported);
                         https://www.iconfinder.com/webalys */}
