@@ -27,7 +27,7 @@ state = {
 navbarHandler = () =>{
         this.state.navbarOpen?this.setState({navbarOpen:false,css:"collapse navbar-collapse"}):
         this.setState({navbarOpen:true,
-        css: 'collape navbar-collapse show'})
+        css: 'collape navbar-collapse show'})//how to show the links when the navbar is collapsed
 }
     render() {
         return (
