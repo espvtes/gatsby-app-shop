@@ -1,16 +1,16 @@
-import React, { Component } from './node_modules/react'
-import { Link } from './node_modules/gatsby';
+import React from 'react';
+import { Link } from 'gatsby';
 import logo from '../../images/logo.svg';//how to import the images
-import {FaCartArrowDown} from './node_modules/react-icons/fa';
+import {FaCartArrowDown} from 'react-icons/fa';
 
 
 
 
-export default class Navbar extends Component {
+export default class Navbar extends React.Component {
     //links to the pages 
 state = {
     navbarOpen: false,
-    css: 'collapse navbar-collapse',//has to be a bootstrap form css
+    css: 'collapse navbar-collapse',
     links:[
         {
             id:1,
