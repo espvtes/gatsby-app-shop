@@ -17,7 +17,7 @@ export default function Info(){
                          Ne accusam deserunt elaboraret has, in eos nisl omnes equidem. Mea in dicant 
                          consulatu voluptatum, impedit dolores eam at.
                         </p>
-                        <Link t="/about/">
+                        <Link t="/about">
                             <button className="btn text-capitalize btn-yellow" >about page</button>
                         </Link>
                     </div>
