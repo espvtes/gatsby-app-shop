@@ -1,6 +1,6 @@
 /* declare the main color of the page */
 :root{
-  --mainBrown:#2d1ef1;
+  --mainBrown:#2d1e1f;
   --mainYellow: rgb(255, 158, 9);
   --mainWhite: #fff;
   --mainGrey:#ece8dc;
@@ -38,4 +38,14 @@ h1,h2,h3,h4,h5,h6{
   background-position: center;
   background-size: cover;
   
+}
+
+.btn-yellow{
+  color: var(--mainYellow);
+  border-color: var(--mainYellow);
+}
+
+.btn-yellow:hover{
+  background: var(--mainYellow);
+  color:var(--mainBrown);
 }
