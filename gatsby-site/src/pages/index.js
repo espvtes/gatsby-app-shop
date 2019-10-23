@@ -4,7 +4,10 @@ import React from "react"
 
 const IndexPage = () => {
     return(
-        <div>Hello</div>
+        <div>
+            <h1>Hello</h1>
+        </div>
+
     )
 }
 
