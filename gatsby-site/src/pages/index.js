@@ -1,12 +1,13 @@
 import React from "react"
+import Layout from '../components/layout.js';
 
 
 
 const IndexPage = () => {
     return(
-        <div>
+        <Layout>
             <h1>Hello</h1>
-        </div>
+        </Layout>
 
     )
 }
