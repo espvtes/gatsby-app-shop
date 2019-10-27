@@ -15,17 +15,17 @@ const Navbar = () =>{
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li className="nav-item">
-                    <Link to="/learnToCode" className="nav-link text-muted">Learn To Code</Link>
+                    <Link to="/learnToCode" className="nav-link font-weight-bolder text-muted">Learn To Code</Link>
                 </li>
                 <li className="nav-item ml-4">
-                    <Link to="/aboutUs" className="nav-link text-muted">About Us</Link>
+                    <Link to="/aboutUs" className="nav-link font-weight-bolder text-muted">About Us</Link>
                 </li>
                 <li className="nav-item ml-4">
-                    <Link to="/openSourceProject" className="nav-link text-muted" >Open Source Project</Link>
+                    <Link to="/openSourceProject" className="nav-link font-weight-bolder text-muted" >Open Source Project</Link>
                 </li>
                 </ul>
                 <form className="form-inline my-2 my-lg-0">
-                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button className="btn btn-outline-primary my-2 my-sm-0 " type="button">Login</button>
                 </form>
             </div>
         </nav>
