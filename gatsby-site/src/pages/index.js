@@ -2,6 +2,8 @@ import React from "react"
 import Layout from '../components/layout.js';
 import { Link } from 'gatsby';
 
+import indexStyles from '../styles/index.module.css';
+
 
 
 
@@ -17,15 +19,16 @@ const IndexPage = () => {
                     </div>
                     <div className="container">
                         <div className="row pt-2">
-                            <div className="col-12 col-md-6 pt-4 text-center">
-                                <button className="btn btn-outline-success btn-lg btn-block">Contribute</button>
+                            <div className="col-12 col-md-5 pt-4 text-center">
+                                <button className="btn btn-outline-success btn-lg">Contribute</button>
                                 <p className="text-center text-muted">Thanks to your contributions we have been able
                                     to publish 2,000 learners, read more about <u>the
                                     reach and impact of our publications here.</u></p>
 
                             </div>
-                            <div className="col-12 col-md-6 pt-4 text-center">
-                                <button className="btn btn-outline-primary btn-lg  btn-block">Start Learning now</button>
+                            <div className="col-12 col-md-2"></div>
+                            <div className="col-12 col-md-5 pt-4 text-center">
+                                <button className="btn btn-outline-primary" className={indexStyles.btnRight}>Start Learning now</button>
                                 <p className="text-center text-muted">Access interactive tutorials, readings, coding projects and many
                                 other tool powered by technology.</p>
                             </div>
@@ -33,7 +36,7 @@ const IndexPage = () => {
                     </div>
                     <h2>More about BreatheCode</h2>
                     <div className="row">
-                        <div className="col-12 text-muted">We are non-profit that builds technology to enchange the way
+                        <div className={indexStyles.text}>We are non-profit that builds technology to enchange the way
                         you learn and evole your coding skills</div>
                     </div>
                     <div className="row">

@@ -1,0 +1,11 @@
+.btn-right{
+    margin-right: 8rem;
+    font-size: 16px;
+    padding: 15px 65px;
+}
+
+.text{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
