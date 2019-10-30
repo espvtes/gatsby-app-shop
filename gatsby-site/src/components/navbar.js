@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Logo from '../images/breathecoLogo.png'
+import navbarStyles from '../styles/components.module.css';
 
 
 const Navbar = () =>{
@@ -15,17 +16,17 @@ const Navbar = () =>{
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li className="nav-item">
-                    <Link to="/learnToCode" className="nav-link font-weight-bolder text-muted">Learn To Code</Link>
+                    <Link to="/learnToCode" className="nav-link font-weight-bolder text-muted"><label className={navbarStyles.link}>Learn To Code</label></Link>
                 </li>
                 <li className="nav-item ml-4">
-                    <Link to="/aboutUs" className="nav-link font-weight-bolder text-muted">About Us</Link>
+                    <Link to="/aboutUs" className="nav-link font-weight-bolder text-muted"><label className={navbarStyles.link}>About Us</label></Link>
                 </li>
                 <li className="nav-item ml-4">
-                    <Link to="/openSourceProject" className="nav-link font-weight-bolder text-muted" >Open Source Project</Link>
+                    <Link to="/openSourceProject" className="nav-link font-weight-bolder text-muted" ><label className={navbarStyles.link}>Open Source Project</label></Link>
                 </li>
                 </ul>
                 <form className="form-inline my-2 my-lg-0">
-                <button className="btn btn-outline-primary my-2 my-sm-0 " type="button">Login</button>
+                <button className="btn btn-outline-primary my-2 my-sm-0 " type="button"><label className={navbarStyles.btnLogin}>Login</label></button>
                 </form>
             </div>
         </nav>
