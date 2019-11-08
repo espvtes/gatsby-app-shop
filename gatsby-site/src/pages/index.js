@@ -16,6 +16,14 @@ const IndexPage = () => {
                         <h3 className="font-weigth-bolder text-center text-muted"><label className={indexStyles.smallTitle}>Learn and get better at coding, using technology.</label></h3>
                         </div>
                     </div>
+                    <div className="row mt-4">
+                        <div className="col-12 col-md-6 center-block text-center">
+                            <button id="singlebutton" name="singlebutton" className="btn btn-outline-success center-block">Contribute</button>
+                        </div>
+                        <div className="col-12 col-md-6 center-block text-center">
+                            <button id="singlebutton" name="singlebutton" className="btn btn-outline-primary center-block">Start Learning Now</button>
+                        </div>
+                    </div>
                 </div>
         </Layout>
 
