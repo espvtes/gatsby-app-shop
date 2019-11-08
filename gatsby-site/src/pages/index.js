@@ -18,10 +18,10 @@ const IndexPage = () => {
                     </div>
                     <div className="row mt-4">
                         <div className="col-12 col-md-6 center-block text-center">
-                            <button id="singlebutton" name="singlebutton" className="btn btn-outline-success center-block">Contribute</button>
+                            <button id="singlebutton" name="singlebutton" className="btn btn-outline-success center-block btn-lg p-4">Contribute</button>
                         </div>
                         <div className="col-12 col-md-6 center-block text-center">
-                            <button id="singlebutton" name="singlebutton" className="btn btn-outline-primary center-block">Start Learning Now</button>
+                            <button id="singlebutton" name="singlebutton" className="btn btn-outline-primary center-block btn-lg p-4">Start Learning Now</button>
                         </div>
                     </div>
                 </div>
