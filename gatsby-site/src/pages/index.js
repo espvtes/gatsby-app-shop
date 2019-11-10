@@ -3,6 +3,7 @@ import Layout from '../components/layout.js';
 import { Link } from 'gatsby';
 import indexStyles from '../styles/index.module.css';
 import Jumbotron from '../components/jumbotron.js';
+import Buttons from '../components/buttons.js'
 
 
 
@@ -12,6 +13,8 @@ const IndexPage = () => {
         <Layout>
                 <div className="container pt-4">
                 <Jumbotron/>
+                <Buttons/>
+
 
                     <div className="row mt-4">
                         <div className="col-12 col-md-6 center-block text-center">
@@ -25,7 +28,6 @@ const IndexPage = () => {
                         <div className="col-12 col-md-6 text-center">Thanks to your constribution we've been able to publish</div>
                         <div className="col-12 col-md-6 text-center">Thanks to your constribution we've been able to publish</div>
                     </div>
-                    <p className="display-4">More about BreatheCo</p>
 
                 </div>
         </Layout>
