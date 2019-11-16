@@ -72,6 +72,19 @@ const IndexPage = () => {
                         <div className="col-12 col-md-2 text-center"><p> 11:00 am</p></div>
                         <div className="col-12 col-md-10"><p>Downtown Miami</p></div>
                     </div>
+                    <div className="jumbotron jumbotron-fluid">
+                        <div className="container">
+                            <p className="lead">Interested in cooding bootcamp</p>
+                            <p className="lead">4Geek Academy will make you software developer
+                            and you don't have to pay until you get a job in tech</p>
+                            <div className="row">
+                                <div className="col-12">
+                                    <input className="input" type="email" placeholder="Email Address"/>
+                                    <button className="btn btn-outline-primary" type="button">Request more info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
         </Layout>
 
