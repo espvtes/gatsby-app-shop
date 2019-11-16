@@ -44,7 +44,23 @@ const IndexPage = () => {
                     <p>Share your love for coding and meet other developers.</p>
                     <div className="row">
                         <div className="col-12 col-md-2 text-center">
-                            <h6>May first</h6>
+                            <h6>May</h6>
+                            <h6>1st</h6>
+                        </div>
+                        <div className="col-12 col-md-10">
+                            <h5>Coding session</h5>
+                            <p>Share your love for coding and meet other developers.</p>
+                            
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12 col-md-2 text-center"><p> 11:00 am</p></div>
+                        <div className="col-12 col-md-10"><p>Downtown Miami</p></div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12 col-md-2 text-center">
+                            <h6>May</h6>
+                            <h6>1st</h6>
                         </div>
                         <div className="col-12 col-md-10">
                             <h5>Coding session</h5>
