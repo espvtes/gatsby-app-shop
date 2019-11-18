@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 import indexStyles from '../styles/index.module.css';
 import Jumbotron from '../components/jumbotron.js';
 import Buttons from '../components/buttons.js'
+import GatsbyImg from '../images/gatsby-astronaut.png';
 
 
 
@@ -72,16 +73,19 @@ const IndexPage = () => {
                         <div className="col-12 col-md-2 text-center"><p> 11:00 am</p></div>
                         <div className="col-12 col-md-10"><p>Downtown Miami</p></div>
                     </div>
-                    <div className="jumbotron jumbotron-fluid">
-                        <div className="container">
-                            <p className="lead">Interested in cooding bootcamp</p>
+
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-md-10">
+                                <p className="lead">Interested in cooding bootcamp</p>
                             <p className="lead">4Geek Academy will make you software developer
                             and you don't have to pay until you get a job in tech</p>
-                            <div className="row">
-                                <div className="col-12">
-                                    <input className="input" type="email" placeholder="Email Address"/>
-                                    <button className="btn btn-outline-primary" type="button">Request more info</button>
-                                </div>
+                                <input className="input" type="email" placeholder="Email Address"/>
+                                <button className="btn btn-outline-primary" type="button">Request more info</button>
+
+                            </div>
+                            <div className="col-12 col-md-2">
+                                <img src={GatsbyImg} className="img-fluid w-100"/>
                             </div>
                         </div>
                     </div>

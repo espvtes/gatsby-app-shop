@@ -16,13 +16,23 @@
     font-weight: bold;
     margin-top: 0;
     line-height: normal;
+    letter-spacing: 2px;
 }
 
 .welcome{
     letter-spacing: 2px;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.6rem;
     color: rgb(68, 68, 68);
     margin-top: 40px;
     font-family: 'Open Sans', sans-serif;
+};
+
+.btnCont{
+    padding: 0.6rem 5rem;
+    font-size: 20px;
+};
+.btnStart{
+    padding: 0.6rem 5rem;
+    font-size: 20px;
 }
